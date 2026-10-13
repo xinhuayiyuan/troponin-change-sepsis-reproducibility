@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code in your research, please cite it as below."
+title: "Troponin change in sepsis — reproducibility package"
+abstract: >-
+  Analysis code (R and Python) and database extraction SQL for the study
+  "Prognostic Value of Troponin Change Beyond Baseline Troponin and Clinical State
+  in Sepsis: A Cohort Study with Multicentre External Validation". The repository
+  contains no patient-level data; the source databases are available from PhysioNet
+  under a credentialed data use agreement.
+type: software
+authors:
+  - family-names: "Han"
+    given-names: "Zhongshu"
+version: "1.0.0"
+date-released: "2026-10-13"
+repository-code: "https://github.com/xinhuayiyuan/troponin-change-sepsis-reproducibility"
+license: MIT
+keywords:
+  - sepsis
+  - cardiac troponin
+  - serial measurement
+  - prognosis
+  - external validation
+  - MIMIC-IV
+  - eICU
+  - intensive care
+  - reproducibility
+preferred-citation:
+  type: article
+  title: >-
+    Prognostic Value of Troponin Change Beyond Baseline Troponin and Clinical State
+    in Sepsis: A Cohort Study with Multicentre External Validation
+  authors:
+    - family-names: "Han"
+      given-names: "Zhongshu"
+  journal: "Scientific Reports"
+  year: 2026
+

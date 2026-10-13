@@ -1,0 +1,8 @@
+# Python dependencies for the analysis pipeline
+# (R packages are listed in meta/r_environment.md)
+pandas>=1.5
+numpy>=1.23
+psycopg2-binary>=2.9
+matplotlib>=3.6
+Pillow>=9.0
+python-docx>=0.8.11

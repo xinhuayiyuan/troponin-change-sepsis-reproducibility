@@ -1,0 +1,42 @@
+# =============================================================================
+# .gitignore — troponin-change-sepsis-reproducibility
+# =============================================================================
+
+# ---- Individual-level patient data (PhysioNet DUA: no redistribution) ----
+data/
+*.rds
+*.RData
+*.Rhistory
+.Rproj.user/
+.Renviron
+*.Rproj
+
+# ---- Intermediate and generated outputs ----
+output/
+figures/
+*.log
+*.out
+*.err
+
+# ---- Large binary files ----
+*.docx
+*.rtf
+*.html
+*.xlsx
+*.jpeg
+*.jpg
+*.pdf
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+

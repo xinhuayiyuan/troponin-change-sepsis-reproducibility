@@ -1,0 +1,15 @@
+# Normalise all text files to LF in the repository
+* text=auto eol=lf
+
+# Declare the file types explicitly
+*.py   text
+*.R    text
+*.sql  text
+*.md   text
+*.cff  text
+*.txt  text
+
+# Figure outputs are binary
+*.png  binary
+*.pdf  binary
+*.docx binary
